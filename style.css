@@ -4,6 +4,18 @@
 	background-color: #f8f9fa;
 }
 
+
+
+.container {
+	max-width: 100%;
+	width: 100%;
+}
+
+.navbar {
+	max-width: 100%;
+	width: 100%;
+}
+
 .page-header {
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -52,5 +64,94 @@ footer a:hover {
 
 	.page-header {
 		padding-top: 120px;
+	}
+
+	.btn-lg {
+		padding: 0.5rem 1rem;
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.display-4 {
+		font-size: 2rem;
+	}
+
+	.lead {
+		font-size: 1rem;
+	}
+
+	.card-body {
+		padding: 1rem;
+	}
+
+	.btn {
+		width: 100%;
+		margin-bottom: 0.5rem;
+	}
+
+	.d-flex.gap-2,
+	.d-flex.gap-3 {
+		flex-direction: column;
+	}
+
+	.btn-outline-primary {
+		width: 100%;
+		margin-bottom: 0.5rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.display-4 {
+		font-size: 1.75rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+
+	h4 {
+		font-size: 1.1rem;
+	}
+
+	.container {
+		padding-left: 10px;
+		padding-right: 10px;
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.card-body {
+		padding: 0.75rem;
+	}
+
+	.navbar-brand {
+		font-size: 1rem;
+	}
+
+	.nav-link {
+		padding: 0.5rem 0.75rem;
+	}
+
+	.accordion-button {
+		font-size: 0.9rem;
+		padding: 0.75rem;
+	}
+
+	.accordion-body {
+		font-size: 0.85rem;
+		padding: 0.75rem;
+	}
+
+	footer h5 {
+		font-size: 1rem;
+	}
+
+	footer p {
+		font-size: 0.85rem;
 	}
 }
